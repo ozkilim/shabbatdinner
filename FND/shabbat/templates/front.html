@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+
+    
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        {% load staticfiles %}
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+
+
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="file:///Users/ozkilim/Downloads/bootstrap%20(2).css" rel="stylesheet.css" type='text/css'>
+
+
+  </head>
+<body>
+    <div class="container">
+   <div class="row">
+<div class="col-2">
+   </div>
+ <div class="col-8">
+
+    <img src="{% static 'images/signupenglish.png'%}" class="signuplogo">
+
+      <form method="POST">{% csrf_token %}
+
+      <input type="text" class="form-control" name="organiser_name" placeholder="Organser name">
+      <input type="text" class="form-control" name="organiser_email" placeholder="Organiser email"><br>
+      <input type="text" class="form-control" name="name2" placeholder="Name 2">
+      <input type="text" class="form-control" name="name3" placeholder="Name 3">
+      <input type="text" class="form-control"  name="name4" placeholder="Name 4">
+      <input type="text" class="form-control" name="group_name" placeholder="Group name"><br>
+    
+  <button type="submit" role="button">Find a friday night dinner!</button>
+
+</form>
+ </div>
+
+ <div class="col-2">
+   </div>
+
+
+</div>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+

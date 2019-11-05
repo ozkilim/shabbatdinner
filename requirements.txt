@@ -1,0 +1,6 @@
+faker
+dateutil
+Django==2.1.3
+
+
+

@@ -1,0 +1,26 @@
+body{
+    background-color: #16145a !important;
+}
+
+.logo{
+    position: relative;
+    left:250px;
+}
+
+.signuplogo{
+    position: relative;
+    right:30px;
+}
+
+
+.signupbutton{
+        position: relative;
+    left:300px;
+    bottom:300px;
+        z-index: 1;
+    font-size: 50px;
+}
+
+
+
+

@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+{% load staticfiles %} 
+<script src="/static/js/script.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+	<title></title>
+</head>
+<body>
+<div class="container">
+
+    <img src="{% static 'images/logo.png'%}" class="logo">
+    <img src="{% static 'images/howitworks.png'%}">
+
+    <a href="{% url 'shabbat:index' %}" class="signupbutton">Sign up!</a>
+
+
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
